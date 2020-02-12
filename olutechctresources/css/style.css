@@ -1,0 +1,140 @@
+/************************************
+                GENERAL
+************************************/
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#olutech9 {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+
+h4 {
+    margin: 0 auto;
+    float: left;
+}
+
+h4:hover{
+    color: rgb(122, 18, 18);
+    background: #e0e01a2f;
+}
+
+h5 {
+ margin: 0 0 1em 0;
+ text-align: center;
+ font-size: 2em;
+
+}
+
+
+
+/************************************
+                HEADER
+************************************/
+header {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#logo {
+    text-align: center;
+    margin: 0;
+    color: white;
+
+}
+
+h4 {
+    margin: 15px 0;
+    font-size: 1.75em
+    font-weight: normal;
+    line-height: 0.8em
+}
+
+h3 {
+    font-size: 0.7em;
+    margin: -5px 0 0;
+    font-weight: normal;
+}
+
+/************************************
+                NAVIGATION
+************************************/
+nav {
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0 0; tab-size: 60cm
+}
+nav ul {
+    list-style: none;
+    margin: 0 10px;
+    padding: 1em;
+}
+nav a {
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
+
+/************************************
+                FOOTER
+************************************/
+footer {
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc
+}
+.social-icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+/************************************
+                COLOR
+************************************/
+body {
+    background-color: #2f2f2f;
+    color: #999
+}
+
+header {
+    background: #6ab47b;
+    border-color:#599a68;
+}
+
+nav {
+    background: #6ab468;
+}
+
+h4, h5 {
+    color: #fff;
+}
+a {
+    color:#6abaad;
+}
+
+nav a, nav a:visited {
+    color: #fff;
+}
+
+nav a.selected, nav a:hover {
+    color: #32673f;
+}
+
